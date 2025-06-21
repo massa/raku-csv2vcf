@@ -1,0 +1,6 @@
+.precomp/
+/App-Csv2Vcf-*
+.vscode
+raku-modules
+mise.toml
+*~

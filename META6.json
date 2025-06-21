@@ -1,0 +1,29 @@
+{
+  "authors": [
+    "Humberto Massa"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Conversion from tab-separated csv files to vcf format",
+  "license": "LGPL-3.0-only",
+  "name": "App::Csv2Vcf",
+  "perl": "6.d",
+  "provides": {
+    "App::Csv2Vcf": "lib/App/Csv2Vcf.rakumod"
+  },
+  "resources": [
+  ],
+  "scripts": {
+    "rel": "/usr/bin/env FAKE_RELEASE=1 mi6 release",
+    "test": "mi6 test"
+  },
+  "source-url": "https://github.com/massa/raku-csv2vcf.git",
+  "tags": [
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
